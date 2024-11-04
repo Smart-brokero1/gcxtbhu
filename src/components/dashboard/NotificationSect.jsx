@@ -99,7 +99,7 @@ const NotificationSect = ({
             <div className="unitOffer">
               <h3>SILVER</h3>
               <h4>
-                <span>$100</span> <br /> - <br /> <span>$900</span>
+                <span>€100</span> <br /> - <br /> <span>€900</span>
               </h4>
               <ul>
                 <li>
@@ -111,7 +111,7 @@ const NotificationSect = ({
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>Get ROI and bonus in 2 Days</span>
+                  <span>Get ROI and bonus in 24 hrs</span>
                 </li>
               </ul>
               <button
@@ -128,7 +128,7 @@ const NotificationSect = ({
                 DIAMOND <i className="icofont-diamond"></i>
               </h3>
               <h4>
-                <span>$10,000</span> <br /> - <br /> <span>$100,000</span>
+                <span>€10,000</span> <br /> - <br /> <span>€100,000</span>
               </h4>
               <ul>
                 <li>
@@ -159,7 +159,7 @@ const NotificationSect = ({
             <div className="unitOffer">
               <h3>GOLD</h3>
               <h4>
-                <span>$1,000</span> <br /> - <br /> <span>$9,000</span>
+                <span>€1,000</span> <br /> - <br /> <span>€9,000</span>
               </h4>
               <ul>
                 <li>

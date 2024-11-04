@@ -403,7 +403,7 @@ const Testimonies = () => {
           <div className="user_testimony">
             <h4>
               &quot;I&apos;m so excited, I give gratitude to the entire staff of
-              XTB global company HU, I have received my profit of $4000, thank
+              XTB global company HU, I have received my profit of €4000, thank
               you all especially to my manager..&quot;
             </h4>
             <p>

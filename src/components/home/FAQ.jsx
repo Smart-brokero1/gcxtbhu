@@ -166,10 +166,10 @@ const FAQ = () => {
                 of the investment, and finally, multiplying it by 100.{" "}
               </p>
               <p>
-                A $20 item sold for $120 would have profit of $65 and a Return
+                A €20 item sold for €120 would have profit of €65 and a Return
                 on Investment of 400 i.e <span>50%</span> ROI of{" "}
-                <span>$10,000</span> = <span>$5,000</span>, bringing your total
-                money to <span>$15,000</span>.
+                <span>€10,000</span> = <span>€5,000</span>, bringing your total
+                money to <span>€15,000</span>.
               </p>
             </div>
           </div>

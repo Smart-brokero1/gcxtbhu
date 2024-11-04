@@ -18,7 +18,7 @@ export default function Document() {
         ></meta>
         <meta
           name="keywords"
-          content="Coinbase investment, XTB hungary, XTB Global Company HU.com, binary trading, Broker, forex trading, Investment, forex investment, Trusted investment platforms, European investment platforms,  Hungary investment platforms, UK investment platforms, Paying websites, investment websites, trusted investment platform."
+          content="Coinbase investment, XTB hungary, XTB Global Company HU.com, binary trading, Broker, forex trading, Investment, forex investment, Trusted investment platforms, EURopean investment platforms,  Hungary investment platforms, UK investment platforms, Paying websites, investment websites, trusted investment platform."
         ></meta>
         <meta name="robots" content="index"></meta>
         <meta property="og:type" content="website"></meta>

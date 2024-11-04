@@ -9,19 +9,13 @@ const Footer = () => {
           <img src="/xtbLogo.svg" alt="company logo" />
           <span></span>
           <div className="socials_1">
-            <a href="https://twitter.com/xtbglobalhungary">
+            <a >
               <img src="/twitter.svg" alt="twitter" />
             </a>
-            <a href="https://www.instagram.com/xtbglobalhungary">
-              <img src="/insta.svg" alt="instagram" />
-            </a>
-            <a href="https://www.facebook.com/xtbglobalhungary">
-              <img src="/facebook.svg" alt="facebook" />
-            </a>
-            <a href="viber://chat?number=+4466536366545">
+            <a >
               <img src="/viber.svg" alt="viber" />
             </a>
-            <a href="https://t.me/CryptocomOfficial">
+            <a href="https://t.me/+Esry9_3AmQA1MGQ0">
               <img src="/telegram.svg" alt="telegram" />
             </a>
           </div>
@@ -50,7 +44,9 @@ const Footer = () => {
               The Company does not have a physical presence in Hungary(HU).
               Hungarian(HU) telephone numbers are provided for clients’
               convenience. The Company operates from Cyprus and Customer Support
-              is provided by XTB SA - HQ in Poland.
+              is provided by <p>
+  <a href="mailto:helpdeskxtbhu@gmail.com">XTB SA - HQ in Poland.</a>
+</p> 
             </h2>
             <div>
               <div className="address_1">
@@ -60,13 +56,19 @@ const Footer = () => {
                   XTB GLOBAL Pikioni 10, Épület: Highsight Rentals Ltd 3075,
                   Limassol, Ciprus
                 </p>
-                <p>CONTACT@xtbglobal.HU</p>
+                <p>
+  <a href="mailto:xtbglobalcompanyhu@gmail.com">CONTACT @ xtbglobal.HU</a>
+</p>
+
                 <p>MON-SUN, 24/7</p>
               </div>
               <div className="address_1">
                 <h5>POLAND</h5>
                 <p>BRANCH XTB S.A. ul. Prosta 67 00-838 Warszawa</p>
-                <p>CONTACT@xtbglobal.PL</p>
+               <p>
+  <a href="mailto:helpdeskxtbhu@gmail.com">HELP CONTACT</a>
+</p>
+
                 <p>MON-FRI, 24/7</p>
               </div>
             </div>

@@ -83,7 +83,7 @@ const TradingViewWidget = () => {
           rel="noopener nofollow"
           target="_blank"
         >
-          <span className="blue-text">Track all markets on TradingView</span>
+          <span className="blue-text"></span>
         </a>
       </div>
     </div>

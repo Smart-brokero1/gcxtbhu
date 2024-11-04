@@ -70,7 +70,7 @@ const Analytics2 = () => {
               },
               {
                 "s": "CME:6E1!",
-                "d": "Euro"
+                "d": "USDo"
               },
               {
                 "s": "COMEX:GC1!",
@@ -103,16 +103,16 @@ const Analytics2 = () => {
                 "d": "Ultra T-Bond"
               },
               {
-                "s": "EUREX:FGBL1!",
-                "d": "Euro Bund"
+                "s": "USDEX:FGBL1!",
+                "d": "USDo Bund"
               },
               {
-                "s": "EUREX:FBTP1!",
-                "d": "Euro BTP"
+                "s": "USDEX:FBTP1!",
+                "d": "USDo BTP"
               },
               {
-                "s": "EUREX:FGBM1!",
-                "d": "Euro BOBL"
+                "s": "USDEX:FGBM1!",
+                "d": "USDo BOBL"
               }
             ],
             "originalTitle": "Bonds"
@@ -121,8 +121,8 @@ const Analytics2 = () => {
             "title": "Forex",
             "symbols": [
               {
-                "s": "FX:EURUSD",
-                "d": "EUR to USD"
+                "s": "FX:USDUSD",
+                "d": "USD to USD"
               },
               {
                 "s": "FX:GBPUSD",
@@ -161,7 +161,7 @@ const Analytics2 = () => {
           rel="noopener nofollow"
           target="_blank"
         >
-          <span className="blue-text">Track all markets on TradingView</span>
+          <span className="blue-text"></span>
         </a>
       </div>
     </div>

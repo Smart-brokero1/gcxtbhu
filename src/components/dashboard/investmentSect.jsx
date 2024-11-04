@@ -56,12 +56,12 @@ const InvestmentSect = ({
               .map((elem, idx) => (
                 <div
                   className="investmentTablehead"
-                  key={`${elem.id}-userDash_${idx}`}
+                  key={`${elem.id}-userDash_€{idx}`}
                 >
                   <div className="unitheadsect">{idx + 1}</div>
                   <div className="unitheadsect">{elem?.plan}</div>
                   <div className="unitheadsect">
-                    ${elem?.capital.toLocaleString()}
+                    €{elem?.capital.toLocaleString()}
                   </div>
                   <div className="unitheadsect">
                     <span
@@ -122,7 +122,7 @@ const InvestmentSect = ({
             <div className="unitOffer">
               <h3>SILVER</h3>
               <h4>
-                <span>$100</span> <br /> - <br /> <span>$900</span>
+                <span>€100</span> <br /> - <br /> <span>€900</span>
               </h4>
               <ul>
                 <li>
@@ -134,7 +134,7 @@ const InvestmentSect = ({
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>Get ROI and bonus in 2 Days</span>
+                  <span>Get ROI and bonus in 24 hrs</span>
                 </li>
               </ul>
               <button
@@ -151,7 +151,7 @@ const InvestmentSect = ({
                 DIAMOND <i className="icofont-diamond"></i>
               </h3>
               <h4>
-                <span>$10,000</span> <br /> - <br /> <span>$100,000</span>
+                <span>€10,000</span> <br /> - <br /> <span>€100,000</span>
               </h4>
               <ul>
                 <li>
@@ -182,7 +182,7 @@ const InvestmentSect = ({
             <div className="unitOffer">
               <h3>GOLD</h3>
               <h4>
-                <span>$1,000</span> <br /> - <br /> <span>$9,000</span>
+                <span>€1,000</span> <br /> - <br /> <span>€9,000</span>
               </h4>
               <ul>
                 <li>

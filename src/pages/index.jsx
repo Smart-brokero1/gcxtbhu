@@ -97,7 +97,7 @@ export default function Home() {
               <span> over 1 million users</span> worldwide
             </li>
             <li>
-              <i className="icofont-cop-badge"></i> Get <span>$50 bonus</span>{" "}
+              <i className="icofont-cop-badge"></i> Get <span>€50 bonus</span>{" "}
               when you register with us
             </li>
             <li>
@@ -118,15 +118,15 @@ export default function Home() {
               <p>Active Users</p>
             </div>
             <div className="unitfact">
-              <h2>$490.9M+</h2>
+              <h2>€490.9M+</h2>
               <p>Total Withdrawals</p>
             </div>
             <div className="unitfact">
-              <h2>$180M+</h2>
+              <h2>€180M+</h2>
               <p>Total Investment</p>
             </div>
             <div className="unitfact">
-              <h2>$700M</h2>
+              <h2>€700M</h2>
               <p>Market Cap</p>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function Home() {
               <div className="unitOffer">
                 <h3>SILVER</h3>
                 <h4>
-                  <span>$100</span> <br /> - <br /> <span>$900</span>
+                  <span>€100</span> <br /> - <br /> <span>€900</span>
                 </h4>
                 <ul>
                   <li>
@@ -299,7 +299,7 @@ export default function Home() {
                   </li>
                   <li>
                     <i className="icofont-tick-mark"></i>{" "}
-                    <span>Get ROI / Profit in 2 Days</span>
+                    <span>Get ROI / Profit in 24 hrs</span>
                   </li>
                 </ul>
                 <Link
@@ -314,7 +314,7 @@ export default function Home() {
                   DIAMOND <i className="icofont-diamond"></i>
                 </h3>
                 <h4>
-                  <span>$10,000</span> <br /> - <br /> <span>$100,000</span>
+                  <span>€10,000</span> <br /> - <br /> <span>€100,000</span>
                 </h4>
                 <ul>
                   <li>
@@ -340,7 +340,7 @@ export default function Home() {
               <div className="unitOffer">
                 <h3>GOLD</h3>
                 <h4>
-                  <span>$1,000</span> <br /> - <br /> <span>$9,000</span>
+                  <span>€1,000</span> <br /> - <br /> <span>€9,000</span>
                 </h4>
                 <ul>
                   <li>

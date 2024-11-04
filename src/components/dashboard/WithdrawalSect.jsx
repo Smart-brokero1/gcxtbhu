@@ -38,7 +38,7 @@ const WithdrawalSect = ({
         <h2>
           Total Balance:{" "}
           <span>
-            $
+            €
             {`${(
               currentUser?.bonus +
               totalROI +
@@ -75,7 +75,7 @@ const WithdrawalSect = ({
             >
               <div className="unitheadsect">{idx + 1}</div>
               <div className="unitheadsect">{elem?.id}</div>
-              <div className="unitheadsect">${elem?.amount}</div>
+              <div className="unitheadsect">€{elem?.amount}</div>
               <div className="unitheadsect">
                 <span
                   style={{
@@ -119,7 +119,7 @@ const WithdrawalSect = ({
             withdraw and click &quot;Proceed&quot;.
           </p>
           <p>
-            - We provides two (2) withdrawal methods (Bitcoin, Ethereum
+            - We provides two (2) withdrawal methods (Bitcoin, Bank transfer
             Payment).
           </p>
           <p>
@@ -129,11 +129,11 @@ const WithdrawalSect = ({
           </p>
           <p>
             - Withdrawals are capped at the amount of funds that are currently
-            in the account (Minimum withdrawal amount is $200).
+            in the account (Minimum withdrawal amount is €200).
           </p>
           <p>
             - To make a widthrawal, a withdrawal processing fee is required to
-            paid before a withdrawal can be made.
+            paid before a withdrawal can be made usually.
           </p>
           <p>
             - Withdrawal requests are addressed and handled as quickly as

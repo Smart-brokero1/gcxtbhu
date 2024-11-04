@@ -6,8 +6,7 @@ import { getFirestore, doc, addDoc, collection } from "firebase/firestore";
 const WithdrawalPayment = ({
   setProfileState,
   withdrawData,
-  bitPrice,
-  ethPrice,
+
   currentUser,
 }) => {
   const [copystate, setCopystate] = useState("Copy");
@@ -37,73 +36,56 @@ const WithdrawalPayment = ({
       });
   };
 
-  const handleTransacConfirmation = () => {
-    addDoc(colRef, {
-      ...withdrawData,
-      date: new Date().toISOString(),
-      widthrawalFee:
-        withdrawData?.paymentOption === "Bitcoin"
-          ? `${Number.parseFloat(withdrawData?.amount / 10 / bitPrice).toFixed(
-              3
-            )} BTC`
-          : `${Number.parseFloat(withdrawData?.amount / 10 / ethPrice).toFixed(
-              3
-            )} ETH`,
-      idnum: currentUser?.idnum,
-    });
-    setProfileState("Withdrawals");
-  };
-  return (
-    <div className="paymentSect">
-      <h2>Confirm Payment</h2>
-      <div className="mainPaymentSect">
-        <h3>
-          Send exactly{" "}
-          <span>
-            {withdrawData?.paymentOption === "Bitcoin"
-              ? `${Number.parseFloat(
-                  withdrawData?.amount / 10 / bitPrice
-                ).toFixed(3)} BTC`
-              : `${Number.parseFloat(
-                  withdrawData?.amount / 10 / ethPrice
-                ).toFixed(3)} ETH`}
-          </span>{" "}
-          to
-        </h3>
-        <p>
-          {withdrawData?.paymentOption === "Bitcoin"
-            ? "bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty"
-            : "0x1D2C71bF833Df554A86Ad142f861bc12f3B24c1c"}{" "}
-          <span
-            onClick={() => {
-              copyToClipboard(
-                `${
-                  withdrawData?.paymentOption === "Bitcoin"
-                    ? "bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty"
-                    : "0x1D2C71bF833Df554A86Ad142f861bc12f3B24c1c"
-                }`
-              );
-            }}
-          >
-            {copystate} <i className="icofont-ui-copy"></i>
-          </span>
-        </p>
-      </div>
+const handleTransacConfirmation = () => {
+  addDoc(colRef, {
+    ...withdrawData,
+    date: new Date().toISOString(),
+    widthrawalFee: `${Number(withdrawData?.amount / 10 )} €`,
+    idnum: currentUser?.idnum,
+  });
+  setProfileState("Withdrawals");
+};
+
+return (
+  <div className="paymentSect">
+    <h2>Confirm Payment</h2>
+    <div className="mainPaymentSect">
+      <h3>
+        Send exactly{" "}
+        <span>
+          {`${Number(withdrawData?.amount / 10 )} €`}
+        </span>{" "}
+        to
+      </h3>
       <p>
-        Confirm the transaction after the specified amount has been transferred
-        while we complete the transaction process.
+        bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty
+        <span
+          onClick={() => {
+            copyToClipboard("bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty");
+          }}
+        >
+          {copystate} <i className="icofont-ui-copy"></i>
+        </span>
       </p>
-      <p>
-        The completion of the transaction process might take between couple
-        minutes to several hours. You can check for the status of your
-        withdrawals in the Withdrawal section of your
-        User-Account-Display-Interface.
+    </div>
+     <p>
+      <strong>I you choose to withdraw using Bank Transfer,
+      You contact the PROFIT/ROI department and continue your transaction there, thank you</strong>
       </p>
+      <button
+        className="financeBtn"
+        onClick={() => {
+          window.open("https://wa.me/yourFinanceDeptNumber", "_blank");
+        }}
+      >
+        Profit/ROI Dept
+      </button>
       <button type="button" onClick={handleTransacConfirmation}>
         Confirm Transaction
       </button>
-    </div>
-  );
+  </div>
+);
+
 };
 
 export default WithdrawalPayment;

@@ -353,7 +353,7 @@ const Profile = () => {
               </span>
             </h3>
             <h2>
-              $
+              €
               {passwordShow
                 ? `${(
                     currentUser?.bonus +
@@ -367,7 +367,7 @@ const Profile = () => {
           <div className="unitUserEarningDisplay fancybg">
             <h3>Bonuses</h3>
             <h2>
-              $
+              €
               {passwordShow
                 ? `${(currentUser?.bonus + totalBonus).toLocaleString()}`
                 : "******"}
@@ -375,7 +375,7 @@ const Profile = () => {
           </div>
           <div className="unitUserEarningDisplay fancybg">
             <h3>Returns</h3>
-            <h2>${passwordShow ? `${totalROI.toLocaleString()}` : "******"}</h2>
+            <h2>€{passwordShow ? `${totalROI.toLocaleString()}` : "******"}</h2>
           </div>
           <div className="unitUserEarningDisplay fancybg">
             <h3>Active / Pending Plans</h3>
