@@ -180,7 +180,7 @@ const Signup = () => {
             </div>
             <div className="righside">
                 <form onSubmit={handleSubmit}>
-                    <Link href={"/"} className='topsignuplink'><img src="/xtblogo.svg" alt="logo" /></Link>
+                    <Link href={"/"} className='topsignuplink'><img src="/xtbLogo.svg" alt="logo" /></Link>
                     <h1>Sign Up with Email</h1>
                     <div className="inputcontainer">
                         <div className="inputCntn">

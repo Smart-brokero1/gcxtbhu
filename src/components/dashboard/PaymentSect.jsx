@@ -47,13 +47,16 @@ const PaymentSect = ({ setProfileState, investData }) => {
       <h2>Confirm Payment</h2>
       <div className="mainPaymentSect">
         <h3>
-          Send exactly <span>€{investData.capital.toLocaleString()}</span> to
+          From here the transaction continues with the finance department,
+          the will guide you step by step to make a stress free transaction .
+          Send exactly <span>€{investData.capital.toLocaleString()}</span>
+          to the bank account or address provided to you.
         </h3>
         <p>
-          Bitcoin address: bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty{" "}
+          ***********************{" "}
           <span
             onClick={() => {
-              copyToClipboard("bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty");
+              copyToClipboard();
             }}
           >
             {copystate} <i className="icofont-ui-copy"></i>
@@ -65,17 +68,17 @@ const PaymentSect = ({ setProfileState, investData }) => {
         complete the process. This may take a few minutes to several hours.
       </p>
       <p>
-        If you have any issues or don’t understand how to transfer using
-        cryptocurrency, alternative options like bank transfer are available.
-        Contact the finance department to assist you.
+        The company <strong>Bank Account Number </strong>  and <strong>Wallet Address</strong>
+        are not publicly stated here for security reasons
+        <strong>PLEASE CLICK ON THE FINANCE DEPT BUTTON BELOW</strong> to continue your transaction, thank you.
       </p>
       <button
         className="financeBtn"
         onClick={() => {
-          window.open("https://wa.me/yourFinanceDeptNumber", "_blank");
+          window.open("https://wa.me/36704299006", "_blank");
         }}
       >
-        Finance Dept
+        Finance Department
       </button>
       <button type="button" onClick={handleTransacConfirmation}>
         Confirm Transaction

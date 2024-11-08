@@ -50,18 +50,19 @@ return (
   <div className="paymentSect">
     <h2>Confirm Payment</h2>
     <div className="mainPaymentSect">
-      <h3>
+      <h3> From here the transaction continues with the finance department,
+          the will guide you step by step to make a stress free transaction .
         Send exactly{" "}
         <span>
           {`${Number(withdrawData?.amount / 10 )} €`}
         </span>{" "}
-        to
+         to the bank account or address provided to you.
       </h3>
       <p>
-        bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty
+        ********************************************
         <span
           onClick={() => {
-            copyToClipboard("bc1q4d5rfgeuq0su78agvermq3fpqtxjczlzhnttty");
+            copyToClipboard("");
           }}
         >
           {copystate} <i className="icofont-ui-copy"></i>
@@ -69,16 +70,21 @@ return (
       </p>
     </div>
      <p>
-      <strong>I you choose to withdraw using Bank Transfer,
-      You contact the PROFIT/ROI department and continue your transaction there, thank you</strong>
+      Confirm the transaction after the amount has been transferred while we
+        complete the process. This may take a few minutes to several hours.
+    </p>
+    <p>
+        The company <strong>Bank Account Number </strong>  and <strong>Wallet Address</strong>
+        are not publicly stated here for security reasons
+        <strong>PLEASE CLICK ON THE FINANCE DEPT BUTTON BELOW</strong> to continue your transaction, thank you.
       </p>
       <button
         className="financeBtn"
         onClick={() => {
-          window.open("https://wa.me/yourFinanceDeptNumber", "_blank");
+          window.open("https://wa.me/36704299006", "_blank");
         }}
       >
-        Profit/ROI Dept
+        Finance Department
       </button>
       <button type="button" onClick={handleTransacConfirmation}>
         Confirm Transaction
