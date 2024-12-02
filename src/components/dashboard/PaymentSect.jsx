@@ -75,7 +75,7 @@ const PaymentSect = ({ setProfileState, investData }) => {
       <button
         className="financeBtn"
         onClick={() => {
-          window.open("https://wa.me/36704299006", "_blank");
+          window.open("https://t.me/saraxtbhu", "_blank");
         }}
       >
         Finance Department

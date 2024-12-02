@@ -158,10 +158,10 @@ const Signup = () => {
             setVerify("verifying");
             setTimeout(() => {
                 setVerify("verified");
-                inputRef.current.checked = true;
+                inputRef.current = true;
             }, 3000);
         } else {
-            inputRef.current.checked = true;
+            inputRef.current = true;
         }
     }
 
